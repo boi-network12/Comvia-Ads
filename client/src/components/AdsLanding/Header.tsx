@@ -57,7 +57,7 @@ export default function Header() {
             ))}
             <div className="h-6 w-px bg-gray-200 dark:bg-gray-800" />
             <Link
-              href="/ads/signup"
+              href="/register"
               className="px-5 py-2.5 gradient-primary text-white text-sm font-medium rounded-xl hover:shadow-lg hover:shadow-primary/30 transition-all hover:scale-105"
             >
               Start Advertising
@@ -94,7 +94,7 @@ export default function Header() {
               </Link>
             ))}
             <Link
-              href="/ads/signup"
+              href="/register"
               className="block px-4 py-2.5 gradient-primary text-white text-sm font-medium rounded-xl text-center hover:shadow-lg hover:shadow-primary/30 transition-all"
               onClick={() => setIsMenuOpen(false)}
             >

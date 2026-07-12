@@ -101,7 +101,7 @@ export default function Hero() {
             <div className="flex flex-wrap items-center gap-4">
               <button 
                 className="group relative px-8 py-4 gradient-primary text-white rounded-xl font-semibold text-lg overflow-hidden transition-all hover:shadow-2xl hover:shadow-primary/30 hover:scale-105"
-                onClick={() => window.location.href = '/ads/signup'}
+                onClick={() => window.location.href = '/register'}
               >
                 <span className="relative z-10 flex items-center gap-2">
                   Start Free Trial
