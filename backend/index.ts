@@ -8,8 +8,8 @@ import cookieParser from "cookie-parser";
 import { getCorsOptions } from "./src/config/corsConfig";
 import { logger, logRequest } from "./src/config/logger";
 import { corsDebug } from "./src/middleware/corsDebug";
-import connectDB, { getDBStatus } from "./src/config/db copy";
 import errorHandler from "./src/middleware/errorHandler";
+import connectDB, { getDBStatus } from "./src/config/db";
 // routes
 
 const app = express();
